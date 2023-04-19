@@ -1,0 +1,15 @@
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main img{
+    margin: 20px;
+}
+main p{
+    font-size: large;
+}
+h1{
+    font-size: 40px;
+}

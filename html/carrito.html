@@ -1,0 +1,121 @@
+<!doctype html>
+<html class="no-js" lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Carrito</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&family=Tilt+Warp&display=swap" rel="stylesheet">
+
+  <meta name="theme-color" content="#fafafa">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/compartido.css">
+  <link rel="stylesheet" href="../css/carrito.css">
+</head>
+
+<body>
+  <header>
+    <img src="../img/logo.PNG" alt="Logo de la página">
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="quienes_somos.html">Quienes somos</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="tienda.html">Tienda</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <a href="tienda.html">Volver</a>
+    <h1>Tus compras</h1>
+    <div>
+      <table>
+        <thead>
+          <tr>
+            <th>Productos</th>
+            <th>Cantidad</th>
+            <th>Precio por unidad</th>
+            <th>Subtotal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Disco Duro</td>
+            <td>2</td>
+            <td>100€</td>
+            <td>200€</td>
+          </tr>
+          <tr>
+            <td>Tarjeta gráfica</td>
+            <td>1</td>
+            <td>400€</td>
+            <td>400€</td>
+          </tr>
+          <tr>
+            <td>Teclado mecánico</td>
+            <td>1</td>
+            <td>150€</td>
+            <td>150€</td>
+          </tr>
+        <tfoot>
+          <tr>
+            <th colspan="3">Total</th>
+            <th>750€</th>
+          </tr>
+        </tfoot>
+        </tbody>
+      </table>
+    </div>
+
+    <div>
+      <h2>Confirmar compra</h2>
+      <form action="compra" method="get" target="_blank" autocomplete="off">
+        <label for="name">Nombre completo:</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" required>
+
+        <label for="address">Dirección:</label>
+        <textarea id="address" required></textarea>
+
+        <label for="card-number">Número de tarjeta de crédito:</label>
+        <input type="text" id="card-number" required>
+
+        <label for="expiration_date">Fecha de expiración:</label>
+        <input type="date" id="expiration_date" required>
+
+        <label for="cvv">CVV:</label>
+        <input type="number" step="1" min="0000" max="9999" id="cvv" required>
+
+        <button>Comprar</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2023 GranadaTech. All Rights Reserved.</p>
+    <div>
+      <a class="icon-instagram" href="https://www.instagram.com/"></a>
+      <a class="icon-twitter" href="https://twitter.com/?lang=es"></a>
+      <a class="icon-youtube" href="https://www.youtube.com/"></a>
+      <a class="icon-telegram" href="https://web.telegram.org"></a>
+    </div>
+    <p><a href="paginas_legales.html">Páginas legales</a></p>
+  </footer>
+</body>
+
+</html>

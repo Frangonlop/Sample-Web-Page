@@ -1,0 +1,108 @@
+<!doctype html>
+<html class="no-js" lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contacto</title>
+  <meta name="description" content="¡Contáctanos y descubre cómo podemos ayudarte en GranadaTech! Nuestro equipo de expertos está listo para brindarte soluciones innovadoras en desarrollo de software, consultoría tecnológica y gestión de proyectos. Completa nuestro formulario de contacto o llámanos para obtener más información.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&family=Tilt+Warp&display=swap" rel="stylesheet">
+
+  <meta name="theme-color" content="#fafafa">
+  <link rel="stylesheet" href="../css/compartido.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/contacto.css">
+</head>
+
+<body>
+  <header>
+    <img src="../img/logo.PNG" alt="Logo de la página">
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="quienes_somos.html">Quienes somos</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="tienda.html">Tienda</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Contacta con nosotros</h1>
+    <div>
+      <div>
+        <h2>Datos de la empresa</h2>
+        <p>Nombre del negocio: GranadaTech</p>
+        <p>Tipo de negocio: Tienda de tecnología y electrónica</p>
+        <p> Ubicación: Avenida de la Constitución, número 24, Granada, España</p>
+        <p>Teléfono: +34 958 123 456</p>
+        <p>Correo electrónico: info@granadatech.es</p>
+        <p>Página web: www.granadatech.es</p>
+        <p>Redes sociales: @granadatech (Instagram y Facebook)</p>
+      </div>
+      <div>
+        <h2>Formulario de contacto</h2>
+        <form action="contacto" method="GET" target="_blank" autocomplete="off">
+          <label for="name">Nombre y apellidos:</label>
+          <input type="text" id="name" placeholder="Nombre" required>
+          <label for="sex">Sexo:</label>
+          <input type="radio" name="sex" required class="radio">Hombre
+          <input type="radio" name="sex" class="radio">Mujer
+          <input type="radio" name="sex" class="radio">Otro
+          <label for="tel">Teléfono:</label>
+          <input type="tel" id="tel" placeholder="Teléfono" required>
+          <label for="corr">Correo electrónico:</label>
+          <input type="email">
+          <label for="ubi">Población:</label>
+          <select name="poblacion" id="ubi" required>
+            <option>-</option>
+            <optgroup label="Andalucía">
+              <option value="gra">Granada</option>
+              <option value="mal">Málaga</option>
+              <option value="alm">Almería</option>
+              <option value="cad">Cádiz</option>
+              <option value="jae">Jaén</option>
+              <option value="hue">Huelva</option>
+              <option value="cor">Córdoba</option>
+              <option value="sev">Sevilla</option>
+            </optgroup>
+          </select>
+          <label for="cont">Cuentanos tu problema:</label>
+          <textarea name="cont" id="cont" cols="10" rows="2"></textarea>
+          <button>Enviar</button>
+        </form>
+      </div>
+    </div>
+    <div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50860.94424194527!2d-3.6262913648284703!3d37.18100948227679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fce62d32c27d%3A0x9258f79dd3600d72!2sGranada!5e0!3m2!1ses!2ses!4v1678277115801!5m2!1ses!2ses"
+        width="700" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2023 GranadaTech. All Rights Reserved.</p>
+    <div>
+      <a class="icon-instagram" href="https://www.instagram.com/"></a>
+      <a class="icon-twitter" href="https://twitter.com/?lang=es"></a>
+      <a class="icon-youtube" href="https://www.youtube.com/"></a>
+      <a class="icon-telegram" href="https://web.telegram.org"></a>
+    </div>
+    <p><a href="paginas_legales.html">Páginas legales</a></p>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+main>a{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: grey;
+}
+main div{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+main div th{
+    margin-left: 10px;
+}
+td, th{
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+td{
+    background-color: azure;
+    text-transform: capitalize;
+}
+th{
+    background-color: lightcoral;
+    text-transform: uppercase;
+}
+table{
+    border: 1px solid black;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+button{
+    width: 100px;
+    margin-left: 40%;
+}
+form input, form button{
+    margin-top: 10px;
+}
+h2{
+    margin-left: 25%;
+}
+main div:nth-of-type(2){
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
